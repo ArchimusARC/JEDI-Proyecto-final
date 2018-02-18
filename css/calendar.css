@@ -1,3 +1,13 @@
 #my-calendar {
 	border: groove #404040 5px;
 }
+
+.glyphicon-chevron-right:before{
+			
+    content: ">";
+}
+
+.glyphicon-chevron-left:before{
+			
+    content: "<";
+}
