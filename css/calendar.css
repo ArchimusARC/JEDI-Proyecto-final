@@ -1,8 +1,14 @@
-#my-calendar {
+#calendar {
 	border: groove #404040 5px;
+	margin-bottom: 15px;
 }
 
-.glyphicon-chevron-right:before{
+#my-calendar {
+	background-color: #808080;
+	background-image: url("../media/concrete-wall-3.png");
+}
+
+/*.glyphicon-chevron-right:before{
 			
     content: ">";
 }
@@ -10,4 +16,14 @@
 .glyphicon-chevron-left:before{
 			
     content: "<";
+}*/
+
+@font-face{ 
+	font-family: FontAwesome; src: url(../fonts/fa-solid-900.woff); 
+} 
+.glyphicon-chevron-right:before{ 
+	font-family: FontAwesome; content: "\f054"; 
+}
+.glyphicon-chevron-left:before{ 
+	font-family: FontAwesome; content: "\f053"; 
 }
